@@ -41,7 +41,7 @@ const Input = styled.input`
 
 
 const AddStudent = () => {
-    const [formValue, setformValue] = useState({
+    const [formValue, setFormValue] = useState({
         lastName: '',
         firstName: '',
         address: '',
@@ -60,30 +60,30 @@ const AddStudent = () => {
                     <FormColumn>
                         <Input
                             placeholder="Last Name"
-                            value={formValue.lastName}
+                            value={setFormValue.lastName}
                         />
                         <Input
                             placeholder="First Name"
-                            value={formValue.firstName}
+                            value={setFormValue.firstName}
                         />
                         <Input
                             placeholder="Address"
-                            value={formValue.address}
+                            value={setFormValue.address}
                         />
                     </FormColumn>
                     <FormColumn>
                         <Input
                             type="date"
                             placeholder=""
-                            value={formValue.dateOfBirth}
+                            value={setFormValue.dateOfBirth}
                         />
                         <Input
                             placeholder="Phone"
-                            value={formValue.phone}
+                            value={setFormValue.phone}
                         />
                         <Input
                             placeholder="E-mail"
-                            value={formValue.email}
+                            value={setFormValue.email}
                         />
                     </FormColumn>
                 </Divider>
