@@ -52,6 +52,7 @@ const AddStudent = () => {
     const handleSubmit = (event) => {
         event.preventDefault();
         console.log(formValue);
+        
     }
     return (
         <AddStudentContainer>
