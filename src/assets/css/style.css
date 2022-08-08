@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  max-width: 100vw;
+  height: 100vh;
+}
+
+.navbar {
+  height: 6vh;
+  width: 100vw;
+  background-color: #2F4050;
+  border-bottom: 1px solid black;
+  z-index: 3;
+  position: absolute;
+  top: 0;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.searchResultRow {
+  padding-left: 2.5em;
+  list-style-type: none;
+  padding: none;
+  margin: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.searchResultRow:hover {
+  background-color: aliceblue;
+  cursor: pointer;
+}
+
+.lastName {
+  flex: 15%;
+}
+
+.firstName {
+  flex: 25%;
+}
+
+.address {
+  flex: 20%;
+}
+
+.studentID {
+  flex: 10%
+}
+
+.addIcon {
+  margin: auto;
+}
+
+.font {
+  border: 1px solid red;
+}
